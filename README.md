@@ -76,13 +76,6 @@ $python diffDefence.py --dataset='MNIST' --classifier='c_a_adv' --typeA='classif
 If you use this codebase, or otherwise found our work valuable, please cite:
 
 ```
-@inproceedings{silva2023diffdefense,
-  title={DiffDefense: Defending Against Adversarial Attacks via Diffusion Models},
-  author={Silva, Hondamunige Prasanna and Seidenari, Lorenzo and Del Bimbo, Alberto},
-  booktitle={International Conference on Image Analysis and Processing},
-  pages={430--442},
-  year={2023},
-  organization={Springer}
-}
+
 
 ```
