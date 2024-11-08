@@ -1,0 +1,34 @@
+classifier:
+  classifier_a:
+    batch_size: 128
+    epochs: 30
+    learning_rate: 0.01
+    momentum : 0.9
+  classifier_b:
+    batch_size: 128
+    epochs: 15
+    learning_rate: 0.01
+    momentum : 0.9
+diffusion:
+  UNSW:
+    batch_size: 64,
+    learning_rate: 3e-4
+    epochs: 500
+
+reconstruct:
+  rec_iter: 10
+  learning_rate: 10
+  rec_init: 10
+attacks:
+  fgsm:
+    eps: 0.3
+    norm: 'inf'
+  cw:
+  general:
+    batch_size: 64
+dataset:
+  UNSW:
+    dim: 204
+    nclass: 2
+    test_size: 10000
+    train_size: 50000

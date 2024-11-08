@@ -1,0 +1,19 @@
+batch_size: 32
+beta_end: 0.02
+beta_start: 0.0001
+classifier: c_a3
+dataset: UNSW
+diffusion_name: smalldiffbal
+diffusion_step: 15
+reconstruction_init: 5
+reconstruction_iter: 4
+sub_classifier: null
+test_size: 10000
+typeA: classifier_a
+typeB: classifier_b
+------------------
+accuracy_adversarial: 67.22
+accuracy_reconstructed: 93.62
+attack_name: PGD
+time_per_image: 4.200656946563721
+------------------
